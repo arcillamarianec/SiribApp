@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signinupback"
+    tools:context="com.bacuyag.SiribApp.RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/imgreg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/siribTitle"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/bbt"
+            android:gravity="center"
+            android:letterSpacing="0.08"
+            android:text="SIRIB"
+            android:textColor="#FFFFFF"
+            android:textSize="130sp" />
+
+        <TextView
+            android:id="@+id/siribTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bbt"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:letterSpacing="0.05"
+            android:text="Palaro Para Sa Mga Pilipino"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:background="@drawable/rounded_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.345"
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/reguname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="45dp"
+            android:backgroundTint="#000000"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#605E5E" />
+
+        <EditText
+            android:id="@+id/regpswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="45dp"
+            android:backgroundTint="#000000"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#605E5E" />
+
+        <EditText
+            android:id="@+id/regrepswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="45dp"
+            android:backgroundTint="#000000"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#605E5E" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/rounded_yellow_black"
+            android:elevation="20dp"
+            android:fontFamily="@font/cubaofreewide"
+            android:lineSpacingExtra="10dp"
+            android:lines="2"
+            android:padding="20dp"
+            android:shadowColor="#0038A8"
+            android:text="mag register"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgreg"
+        android:layout_width="96dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.382"
+        app:srcCompat="@drawable/signupologo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

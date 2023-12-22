@@ -1,0 +1,31 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/drawable-v24/rounded_nxt_black.xml" value="0.351" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/drawable/rounded_blue.xml" value="0.1" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/layout/aboutus.xml" value="0.33" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/layout/activity_main.xml" value="0.3061594202898551" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/layout/activity_main2.xml" value="0.18" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/layout/activity_questions.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/layout/layunin.xml" value="0.1" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/layout/qna.xml" value="0.1" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/layout/register.xml" value="0.25" />
+        <entry key="..\:/Users/Lance's PC/AndroidStudioProjects/finalprojecthopefullyfinalna/app/src/main/res/layout/signin.xml" value="0.25" />
+        <entry key="..\:/Users/Lance's PC/Desktop/appnagumaganaregister/finalprojecthopefullyfinalna/app/src/main/res/layout/activity_questions.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Lance's PC/Desktop/appnagumaganaregister/finalprojecthopefullyfinalna/app/src/main/res/layout/layunin.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Lance's PC/Desktop/appnagumaganaregister/finalprojecthopefullyfinalna/app/src/main/res/layout/qna.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Lance's PC/Desktop/appnagumaganaregister/finalprojecthopefullyfinalna/app/src/main/res/layout/register.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Lance's PC/Desktop/appnagumaganaregister/finalprojecthopefullyfinalna/app/src/main/res/layout/signin.xml" value="0.27717391304347827" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

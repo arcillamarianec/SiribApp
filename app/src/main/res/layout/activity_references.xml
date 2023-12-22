@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutusback"
+    tools:context=".References">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoinreferences"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/referencestitle"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/bbt"
+            android:gravity="center"
+            android:letterSpacing="0.08"
+            android:text="References"
+            android:textColor="#FFFFFF"
+            android:textSize="70sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <TextView
+            android:id="@+id/reftxt"
+            android:layout_width="match_parent"
+            android:layout_height="362dp"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/montreg"
+            android:gravity="center"
+            android:letterSpacing="0.07"
+            android:text="“50+ Philippines Quiz Questions and Answers.” Quiz Trivia Games, 14 Nov. 2022, https://www.quiztriviagames.com/philippines-quiz/. “Braingle &quot; 'the Philippines 101' Trivia Quiz.” Braingle &quot; 'The Philippines 101' Trivia Quiz, https://www.braingle.com/trivia/17279/the-philippines-101.html. “The Modern Name for the Country Can Trace Its Roots to the Explorer Ruy Lpez De Villalobos. Who Was He Honouring When Naming the Country in 1543?” Asia, https://www.funtrivia.com/en/Geography/Philippines-9651.html. “The Philippines Trivia.” TriviaNerd, https://www.trivianerd.com/collection/philippines-trivia. "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

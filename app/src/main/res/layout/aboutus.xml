@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutusback"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoinreferences"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/referencestitle"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/bbt"
+            android:gravity="center"
+            android:letterSpacing="0.08"
+            android:text="About Us"
+            android:textColor="#FFFFFF"
+            android:textSize="100sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="384dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/aboutuslogo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="392dp"
+        android:layout_height="375dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            app:srcCompat="@drawable/arcilla" />
+
+        <TextView
+            android:id="@+id/arcillatext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Arcilla, Mariane Christene"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            app:srcCompat="@drawable/bacuyag" />
+
+        <TextView
+            android:id="@+id/bacuyagtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bacuyag, Lance Josh"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/pacalso" />
+
+        <TextView
+            android:id="@+id/pacalsotext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Pacalso, Edward Marcian"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/refbtn"
+        android:layout_width="144dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_yelloww"
+        android:fontFamily="@font/cubaofreewide"
+        android:onClick="References"
+        android:text="References"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.542" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
