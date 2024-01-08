@@ -11,11 +11,9 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="423dp"
-        android:layout_height="176dp"
-        android:layout_marginBottom="14dp"
+        android:layout_width="414dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,13 +21,13 @@
         <ImageView
             android:id="@+id/logoinreferences"
             android:layout_width="match_parent"
-            android:layout_height="66dp"
+            android:layout_height="60dp"
             app:srcCompat="@drawable/logo" />
 
         <TextView
             android:id="@+id/referencestitle"
             android:layout_width="match_parent"
-            android:layout_height="87dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:fontFamily="@font/bbt"
@@ -43,8 +41,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="139dp"
-        android:layout_height="155dp"
+        android:layout_width="89dp"
+        android:layout_height="112dp"
         android:layout_marginStart="115dp"
         android:layout_marginTop="55dp"
         android:layout_marginEnd="95dp"
@@ -69,7 +67,7 @@
         <TextView
             android:id="@+id/layunintext"
             android:layout_width="match_parent"
-            android:layout_height="336dp"
+            android:layout_height="355dp"
             android:fontFamily="@font/montreg"
             android:gravity="center"
             android:letterSpacing="0.07"

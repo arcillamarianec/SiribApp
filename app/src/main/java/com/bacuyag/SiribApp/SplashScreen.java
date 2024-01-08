@@ -17,8 +17,6 @@ public class SplashScreen extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_splash_screen);
-        mysong = MediaPlayer.create(SplashScreen.this,R.raw.bgmusic);
-        mysong.start();
         // on below line we are calling handler to run a task
         // for specific time interval
         new Handler().postDelayed(new Runnable() {
